@@ -1,0 +1,64 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# JUCE Project Files
+# JUCE project file (optional to ignore — version it if others need it)
+# *.jucer
+
+# JUCE-generated Builds directory
+Builds/
+JuceLibraryCode/
+
+# CMake intermediate build directories
+cmake-build-*/
+
+# Compiled Binaries and Object Files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+# *.exe
+
+# Visual Studio Files
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+*.opensdf
+*.pdb
+*.ipch
+*.idb
+*.user
+*.ncb
+*.suo
+*.aps
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj.*
+*.vcproj.*
+
+# Xcode Files
+*.xcworkspace
+*.xcuserstate
+*.xcuserdata
+*.xcodeproj/project.xcworkspace
+*.xcodeproj/xcuserdata
+
+# CMake Generated Files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+*~
+*.bak
+*.log
+
+#----------------------------------------
+# Optional: Ignore build artifacts if you define a custom bin/ directory
+#----------------------------------------
+# bin/
+# dist/
